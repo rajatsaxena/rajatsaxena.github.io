@@ -1,4 +1,4 @@
 name: Rajat Saxena, Yet Another loquacious
 markdown: kramdown
 
-permalink: /blog/:year/:month/:day/:title
+permalink: /_blog/:year/:month/:day/:title
