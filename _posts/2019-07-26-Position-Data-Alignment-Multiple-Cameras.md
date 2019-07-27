@@ -30,5 +30,6 @@ Here are the steps used in calculating the aligned camera position:
 
 10. Rerun the above steps to get aligned position data for the other half of the room *merged_cam5678_posX, merged_cam5678_posY* 
 
-11. Finally find the intersecting coordinates, followed by calculating the homography matrix and perspective transformation between one half and other half of the camera coordinates to merge them into single merged coordinates *merged_allcams_posX, merged_allcams_posY*.
+12. Find the intersecting coordinates, followed by calculating the homography matrix and perspective transformation between one half and other half of the camera coordinates to merge them into single merged coordinates *merged_allcams_posX, merged_allcams_posY*.
 
+13. Finally, save all the processed data into a matfile
