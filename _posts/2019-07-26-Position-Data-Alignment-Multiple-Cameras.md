@@ -33,3 +33,9 @@ Here are the steps used in calculating the aligned camera position:
 12. Find the intersecting coordinates, followed by calculating the homography matrix and perspective transformation between one half and other half of the camera coordinates to merge them into single merged coordinates *merged_allcams_posX, merged_allcams_posY*.
 
 13. Finally, save all the processed data into a matfile
+
+<img src="https://rajatsaxena.github.io//images//cam1234.png" alt="Camera1234">
+
+<img src="https://rajatsaxena.github.io//images//cam5678.png" alt="Camera5678">
+
+<img src="https://rajatsaxena.github.io//images//allcameras.png" alt="AllCameras">
