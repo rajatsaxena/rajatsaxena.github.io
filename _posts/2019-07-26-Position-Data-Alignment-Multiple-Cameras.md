@@ -6,7 +6,7 @@ date: 2019-07-26
 
 How do we go about aligning x,y position coordinates from eight different cameras covering different parts of the same environment? We are going to use a LED to calculate the perspective transformation between all pairs of cameras and align them in single world coordinate system. Let's jump into the setup then. We have eight raspberry pi cameras covering a large room (16m<sup>2</sup>). This is how each camera's field of view overlap region looks in 2D plane (Saxena et al. 2018):
 
-<img src="https://rajatsaxena.github.io//images//CameraFOV.png" width="50%" height="50%" align="middle">
+<img src="https://rajatsaxena.github.io//images//CameraFOV.png" width="75%" height="75%">
 
 Here are the steps used in calculating the aligned camera position:
 
@@ -36,8 +36,8 @@ Here are the steps used in calculating the aligned camera position:
 
 This is the link to the entire script: https://github.com/rajatsaxena/MultiCameraPositionAlignment
 
-<img src="https://rajatsaxena.github.io//images//cam1234.PNG" title="Camera1234" width="50%" height="50%" align="middle">
+<img src="https://rajatsaxena.github.io//images//cam1234.PNG" title="Camera1234" width="75%" height="75%">
 
-<img src="https://rajatsaxena.github.io//images//cam5678.PNG" title="Camera5678" width="50%" height="50%" align="middle">
+<img src="https://rajatsaxena.github.io//images//cam5678.PNG" title="Camera5678" width="75%" height="75%">
 
-<img src="https://rajatsaxena.github.io//images//allcameras.PNG" title="AllCameras" width="50%" height="50%" align="middle">
+<img src="https://rajatsaxena.github.io//images//allcameras.PNG" title="AllCameras" width="75%" height="75%">
