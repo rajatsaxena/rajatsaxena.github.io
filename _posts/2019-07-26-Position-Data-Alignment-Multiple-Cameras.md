@@ -34,7 +34,7 @@ Here are the steps used in calculating the aligned camera position:
 
 13. Finally, save all the processed data into a matfile
 
-This is the link to the entire script: https://github.com/rajatsaxena/MultiCameraPositionAlignment
+You can find the script [here](https://github.com/rajatsaxena/MultiCameraPositionAlignment)
 
 <img src="https://rajatsaxena.github.io//images//cam1234.PNG" title="Camera1234" width="75%" height="75%">
 
