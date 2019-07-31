@@ -34,7 +34,9 @@ Here are the steps used in calculating the aligned camera position:
 
 13. Finally, save all the processed data into a matfile
 
-You can find the script [here](https://github.com/rajatsaxena/MultiCameraPositionAlignment)
+*WARNING*: The homography estimation vary as the function of number of intersecting coordinates between cameras. Less number of intersecting coordinates will lead to incorrect estimation. Although once the homography matrices are estimated, you can use them for data collected across multiple days as long the cameras are not moved. 
+
+The script is available [HERE](https://github.com/rajatsaxena/MultiCameraPositionAlignment)
 
 <img src="https://rajatsaxena.github.io//images//cam1234.PNG" title="Camera1234" width="75%" height="75%">
 
