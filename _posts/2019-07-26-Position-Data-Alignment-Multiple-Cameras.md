@@ -10,13 +10,13 @@ How do we go about aligning x,y position coordinates from eight different camera
 
 Here are the steps used in calculating the aligned camera position:
 
-1. Run position tracking script on each camera individually. ENSURE that when you are running position tracking, you remove outside regions from each camera FOV to avoid reflection. Reflections can cause error in homography estimation. Summing it up, define the ROI on each camera such that no reflection zones are present.
+1. Run position tracking script on each camera individually. ENSURE that when you are running position tracking, you remove outside regions from each camera FOV to avoid reflection. Reflections can cause error in homography estimation. **Summing it up, define the ROI on each camera such that no reflection zones are present.**
 
 2. Load the position data and find unoccupied frames in each camera. To begin with, select position data and unoccupied frame data from any two cameras (say camera 2, 3). 
 
 3. Find frames where LED is visbile in both the cameras and store the intersecting X,Y position for each of them in an array. 
 
-4. Use the intersecting X,Y position to create source camera (camera2) and destination camera coordinates (camera3). These intersecting points are going to serve the same function as the keypoints detected using feature transformation. NOTE that the source camera coordinates will be transformed to destination camera coordinates reference frame. 
+4. Use the intersecting X,Y position to create source camera (camera2) and destination camera coordinates (camera3). These intersecting points are going to serve the same function as the keypoints detected using feature transformation. **NOTE that the source camera coordinates will be transformed to destination camera coordinates reference frame.**
 
 5. Apply RANSAC algorithm on intersecting X,Y coordinates to remove geometrically inconsistent matches and improve homography estimation (also nice way to remove noisy reflection data).
 
@@ -34,7 +34,7 @@ Here are the steps used in calculating the aligned camera position:
 
 13. Finally, save all the processed data into a matfile
 
-*WARNING*: The homography estimation vary as the function of number of intersecting coordinates between cameras. Less number of intersecting coordinates will lead to incorrect estimation. Although once the homography matrices are estimated, you can use them for data collected across multiple days as long the cameras are not moved. 
+***WARNING*: The homography estimation vary as the function of number of intersecting coordinates between cameras. Less number of intersecting coordinates will lead to incorrect estimation. Although once the homography matrices are estimated, you can use them for data collected across multiple days as long the cameras are not moved. **
 
 The script is available [HERE](https://github.com/rajatsaxena/MultiCameraPositionAlignment)
 
