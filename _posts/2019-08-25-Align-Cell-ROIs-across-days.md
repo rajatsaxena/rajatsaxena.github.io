@@ -21,7 +21,7 @@ up, we used probabilistic modeling (RANSAC) to find only consistent matches.
 - Using these consistent features matches, find the transformation matrix between the two sessions. Warp the imaging data from the target 
 session to the reference session coordinate sytem using the transformation matrix.
 
-<img src="https://rajatsaxena.github.io//images//transformedMeanImgs.PNG" width="125%" height="125%">
+<img src="https://rajatsaxena.github.io//images//transformedMeanImgs.PNG" width="85%" height="85%">
 
 - Warp the cell ROIs from the target session using the transformation matrix to align with the reference session ROIs. Now compute the 
 overlap between the two groups of ROIs. In the image below, yellow, red and green represent the overlapping ROIs, session1 ROIs and 
