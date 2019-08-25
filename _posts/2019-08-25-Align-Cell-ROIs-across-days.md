@@ -26,7 +26,7 @@ session to the reference session coordinate sytem using the transformation matri
 overlap between the two groups of ROIs. In the image below, yellow, red and green represent the overlapping ROIs, session1 ROIs and 
 session2 ROIs respectively.
 
-<img src="https://rajatsaxena.github.io//images//alignedCells.PNG" width="50%" height="50%">
+<img src="https://rajatsaxena.github.io//images//alignedCells.PNG">
 
 To run the above script, you will need `ops.npy` and `stat.npy` file from both the session along with the `scikit-image` package for image 
 processing steps. The script is available [HERE](https://github.com/rajatsaxena/suite2p_utils/blob/master/persp_transform_aligncells.py)
