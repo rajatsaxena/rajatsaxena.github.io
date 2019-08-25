@@ -3,8 +3,7 @@ and other workshop participants. Kudos to all of us!
 
 A lot of labs are interested in looking at the activity of the same cells across days. One of the easiest solution (and which works well)
 recommended during the workshop was to concatenate the imaging data from multiple days and run the suite2p algorithm on the concatenated 
-data. The results looked pretty great for four different datasets we tried. Although this works well only when the images across days have 
-small degree of misalignment (needs more quantification).
+data. The results looked pretty great for four different datasets we tried. Although this works well only when the images across days have small degree of misalignment (needs more quantification).
 
 We came up with an alternative methods for larger misalignment. This was the proposed solution:
 
