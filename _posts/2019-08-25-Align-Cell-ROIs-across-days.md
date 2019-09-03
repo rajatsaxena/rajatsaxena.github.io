@@ -7,26 +7,24 @@ data. The results looked pretty great for four different datasets we tried. Alth
 
 We came up with an alternative methods for larger misalignment. This was the proposed solution:
 
-- Run suite2p algorithm to find ROIs on each session. 
-- Retrieve the `meanImg` from the `ops` file for each session.
+1. Run suite2p algorithm to find ROIs on each session. 
+2. Retrieve the `meanImg` from the `ops` file for each session.
 
 <img src="https://rajatsaxena.github.io//images//meanImages.PNG">
 
-- Detect features on `meanImg` from each session and find matching features. Sometimes, the features detected can be noisy. To clean those 
-up, we used probabilistic modeling (RANSAC) to find only consistent matches.
+3. Detect features on `meanImg` from each session and find matching features. Sometimes, the features detected can be noisy. To clean those up, we used probabilistic modeling (RANSAC) to find only consistent matches.
 
 <img src="https://rajatsaxena.github.io//images//matches.PNG">
 
-- Using these consistent features matches, find the transformation matrix between the two sessions. Warp the imaging data from the target 
+4. Using these consistent features matches, find the transformation matrix between the two sessions. Warp the imaging data from the target 
 session to the reference session coordinate sytem using the transformation matrix.
 
 <img src="https://rajatsaxena.github.io//images//transformedMeanImgs.PNG">
 
-- Warp the cell ROIs from the target session using the transformation matrix to align with the reference session ROIs. Now compute the 
+5. Warp the cell ROIs from the target session using the transformation matrix to align with the reference session ROIs. Now compute the 
 overlap between the two groups of ROIs. In the image below, yellow, red and green represent the overlapping ROIs, session1 ROIs and 
 session2 ROIs respectively.
 
 <img src="https://rajatsaxena.github.io//images//alignedCells.PNG">
 
-To run the above script, you will need `ops.npy` and `stat.npy` file from both the session along with the `scikit-image` package for image 
-processing steps. The script is available [HERE](https://github.com/rajatsaxena/suite2p_utils/blob/master/persp_transform_aligncells.py)
+To run the above algorithm, you will need `ops.npy` and `stat.npy` file from both the session along with the `scikit-image` package for image processing steps. The script is available [HERE](https://github.com/rajatsaxena/suite2p_utils/blob/master/persp_transform_aligncells.py)
