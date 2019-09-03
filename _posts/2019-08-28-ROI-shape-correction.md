@@ -2,9 +2,9 @@ A lot of time cells detected during imaging have axons going outwards but we are
 So, I tried altering the shape of the cell ROIs to remove the tail but keep the center circular part. Most of the algorithm used 
 below involved using different morphological transformation functions from `scikit-image`. This is the algorithm used:
 
-- Load the ROI mask
-- Close the small openings in the mask using `closing` function
-- Perform `opening` operation which is basically `erosion` followed by `dilation`
+1. Load the ROI mask
+2. Close the small openings in the mask using `closing` function
+3. Perform `opening` operation which is basically `erosion` followed by `dilation`
 
 This is how the output looks like. Red and black color contour represent clipped ROI and original ROI respectively.
 
