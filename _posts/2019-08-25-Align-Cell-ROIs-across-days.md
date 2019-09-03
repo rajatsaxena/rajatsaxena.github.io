@@ -7,21 +7,21 @@ data. The results looked pretty great for four different datasets we tried. Alth
 
 We came up with an alternative methods for larger misalignment. This was the proposed solution:
 
-1. Run suite2p algorithm to find ROIs on each session. 
-2. Retrieve the `meanImg` from the `ops` file for each session.
+- Run suite2p algorithm to find ROIs on each session. 
+- Retrieve the `meanImg` from the `ops` file for each session.
 
 <img src="https://rajatsaxena.github.io//images//meanImages.PNG">
 
-3. Detect features on `meanImg` from each session and find matching features. Sometimes, the features detected can be noisy. To clean those up, we used probabilistic modeling (RANSAC) to find only consistent matches.
+- Detect features on `meanImg` from each session and find matching features. Sometimes, the features detected can be noisy. To clean those up, we used probabilistic modeling (RANSAC) to find only consistent matches.
 
 <img src="https://rajatsaxena.github.io//images//matches.PNG">
 
-4. Using these consistent features matches, find the transformation matrix between the two sessions. Warp the imaging data from the target 
+- Using these consistent features matches, find the transformation matrix between the two sessions. Warp the imaging data from the target 
 session to the reference session coordinate sytem using the transformation matrix.
 
 <img src="https://rajatsaxena.github.io//images//transformedMeanImgs.PNG">
 
-5. Warp the cell ROIs from the target session using the transformation matrix to align with the reference session ROIs. Now compute the 
+- Warp the cell ROIs from the target session using the transformation matrix to align with the reference session ROIs. Now compute the 
 overlap between the two groups of ROIs. In the image below, yellow, red and green represent the overlapping ROIs, session1 ROIs and 
 session2 ROIs respectively.
 
