@@ -7,6 +7,7 @@ below involved using different morphological transformation functions from `scik
 - Perform `opening` operation which is basically `erosion` followed by `dilation`
 
 This is how the output looks like. Red and black color contour represent clipped ROI and original ROI respectively.
+
 <img src="https://rajatsaxena.github.io//images//combined_roi.png" width="50%" height="50%">
 
 The script is available [HERE](https://github.com/rajatsaxena/suite2p_utils/blob/master/roi_shape_correction.py)
