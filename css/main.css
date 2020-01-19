@@ -42,14 +42,14 @@ ul.posts li {
     list-style: none;
 }
 
-#blurb {
+blurb {
   display: flex;
 }
 
-#left {
+left {
   flex: 0 0 65%;
 }
 
-#right {
+right {
   flex: 1;
 }
