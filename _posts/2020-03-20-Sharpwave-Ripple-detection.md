@@ -38,7 +38,7 @@ threshold to detect false positives and true negatives.
 2. Another way to improve SWR detection is by using LFP from multiple sites. 
 
 
-<img style="float: left" src="https://rajatsaxena.github.io//images//SWR.png" width="125%" height="125%">
+<img style="float: left" src="https://rajatsaxena.github.io//images//SWR.png" width="100%" height="100%">
 
 One can argue to use different values of parameters (such as filter frequency, kernel window size, ripple power threshold, 
 etc.) and I will generally agree since these are the decision that depends on the kind of dataset and current consensus in 
