@@ -40,8 +40,14 @@ threshold to detect false positives and true negatives.
 
 <img style="float: left" src="https://rajatsaxena.github.io//images//SWR.png" width="100%" height="100%">
 
+
 One can argue to use different values of parameters (such as filter frequency, kernel window size, ripple power threshold, 
 etc.) and I will generally agree since these are the decision that depends on the kind of dataset and current consensus in 
 the field. With that said, it is easy to modify the proposed algorithm as per one's need. 
 
 Good luck with your analysis! 
+
+
+**EDIT 1**
+
+1. I have now added SWR detection using z-scored filtered SWR envelope same as the one used by Dr Loren Frank's lab.
