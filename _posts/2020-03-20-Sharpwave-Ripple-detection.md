@@ -10,32 +10,32 @@ over time. The script is available [HERE](https://github.com/rajatsaxena/lfp_ana
 
 **Algorithm**
 
-1. Load the raw LFP data along with the sampling rate
+1.Load the raw LFP data along with the sampling rate
 
-2. Bandpass filter the data in `150-250 Hz`. There is some conflict in the field on what range to use. 
+2.Bandpass filter the data in `150-250 Hz`. There is some conflict in the field on what range to use. 
 
-3. Calculate the `RMS` power by convolving the signal with the kernel of `size=9`. 
+3.Calculate the `RMS` power by convolving the signal with the kernel of `size=9`. 
 
-4. Calculate the `mean rms` and `std rms` power
+4.Calculate the `mean rms` and `std rms` power
 
-5. Set a `minimum and maximum ripple duration`. I have used 20ms and 200ms as the minimum and maximum SWR time.
+5.Set a `minimum and maximum ripple duration`. I have used 20ms and 200ms as the minimum and maximum SWR time.
 
-6. Set a ripple power threshold for finding the SWR peak. I used `mean_rms + 5*std_rms` as threshold.
+6.Set a ripple power threshold for finding the SWR peak. I used `mean_rms + 5*std_rms` as threshold.
 
-7. Decide a `falloff` threshold to calculate the ripple start time, end time and duration. In this case, 
+7.Decide a `falloff` threshold to calculate the ripple start time, end time and duration. In this case, 
 `falloff_thresh = mean_rms + 0.5*std_rms` 
 8.For each ripple peak, calculate the ripple starttime, endtime, duration, and peaktime. 
 9.Remove putative ripple events which do not lie within the duration range. 
 
 **Some additional comments for future analysis**
-1. The analysis results can be improved by looking at spiking data recorded from all the neurons. As mentioned earlier,
+1.The analysis results can be improved by looking at spiking data recorded from all the neurons. As mentioned earlier,
 SWR events are associated with increased synchronous firing. A basic spike count sum across neurons can be used as 
 threshold to detect false positives and true negatives.
 
-2. Another way to improve SWR detection is by using LFP from multiple sites. 
+2.Another way to improve SWR detection is by using LFP from multiple sites. 
 
 
-<img src="https://rajatsaxena.github.io//images//SWR.png" width="125%" height="125%">
+<img src="https://rajatsaxena.github.io//images//SWR.png" width="125%" height="125%" align="left">
 
 One can argue to use different values of parameters (such as filter frequency, kernel window size, ripple power threshold, 
 etc.) and I will generally agree since these are the decision that depends on the kind of dataset and current consensus in 
