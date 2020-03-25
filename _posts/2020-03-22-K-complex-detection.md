@@ -4,7 +4,7 @@ electrode during NREM sleep stage II is K-complexes (KC). KC consists of a brief
 occurring spontaneously that is often followed by bursts of sleep spindles. In the current post, I have described how to go 
 about detecting KC events. **Acknowledgements** Dr. Justin Shobe for providing me the test dataset; Scott Kilianski and 
 Dr. Shobe for discussion of the algorithms; `detect_peaks` library by Marcos Duarte. **NOTE** this script is just a version1 
-and can be significantly improved. I will keep making edits to it now and then. The script is available [HERE](https://github.com/rajatsaxena/lfp_analysis/tree/master/kc_analysis).
+and can be significantly improved. I will keep making edits to it now and then. The script is available [HERE](https://github.com/rajatsaxena/sleep_analysis/tree/master/kc_analysis).
 
 **Algorithm**
 
