@@ -6,7 +6,7 @@ detect SWRs using just LFP along with the python script. Note that some of the v
 dataset in use. **Acknowledgements** Scott Kilianski and Aditi Bishnoi for providing me test datasets; Mekhala Kumar for 
 explaining me the methodology and sharing her test scripts; `detect_peaks` library by Marcos Duarte, `neurodsp` library by 
 Voytek-lab, UCSD. **NOTE** that this script is by no means perfect but it is a good start; I will keep making changes to it 
-over time. The script is available [HERE](https://github.com/rajatsaxena/lfp_analysis/tree/master/ripple_analysis).
+over time. The script is available [HERE](https://github.com/rajatsaxena/sleep_analysis/tree/master/ripple_analysis).
 
 **Algorithm**
 
