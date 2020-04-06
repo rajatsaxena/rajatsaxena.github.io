@@ -14,19 +14,19 @@ There are two parts of the algorithm: **Part I: Template Epoch**
 1. Get the spike raster for the cell ensembles
 <img style="float: left" src="https://rajatsaxena.github.io//images/spikeraster.png" width="80%" height="80%">
 
-
+<br />
 2. Bin the spike trains in 25ms bin. The authors use 100ms bins. Binned spike trains are then z-transformed. 
 <img style="float: left" src="https://rajatsaxena.github.io//images/binnedspikeraster_Z.png" width="80%" height="80%">
 
-
+<br />
 3. Compute the correlation matrix of the z-transformed binned spike trains
 <img style="float: left" src="https://rajatsaxena.github.io//images/correlationmatrix.png" width="40%" height="40%">
 
-
+<br />
 4. Compute the principal components of the matrix are computed 
 <img style="float: left" src="https://rajatsaxena.github.io//images/PCcorr.png" width="60%" height="60%">
 
-
+<br />
 5. Compute PCA projector operators P1,P2....,Pn as the external product of the component vector with itself. The sum 
 of these projector operators, weighted by their respective eigenvalues, yields the correlation matrix (shown in 
 right). *The projector matrices will be used as our templates.*
