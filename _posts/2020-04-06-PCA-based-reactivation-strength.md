@@ -20,7 +20,7 @@ There are two parts of the algorithm: **Part I: Template Epoch**
 
 <br />
 3.Compute the correlation matrix of the z-transformed binned spike trains
-<img style="float: left" src="https://rajatsaxena.github.io//images/correlationmatrix.png" width="100%" height="100%">
+<img style="float: left" src="https://rajatsaxena.github.io//images/correlationmatrix.png" width="500" height="500">
 
 <br />
 4.Compute the principal components of the matrix are computed 
