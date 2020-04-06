@@ -11,7 +11,7 @@ algorithms used in the paper.
 
 There are two parts of the algorithm: **Part I: Template Epoch**
 
-1.Get the spike raster for the cell ensembles
+1.Get the spike raster for the cell ensembles.
 <img style="float: left" src="https://rajatsaxena.github.io//images/spikeraster.png" width="100%" height="100%">
 
 <br />
@@ -19,11 +19,11 @@ There are two parts of the algorithm: **Part I: Template Epoch**
 <img style="float: left" src="https://rajatsaxena.github.io//images/binnedspikeraster_Z.png" width="100%" height="100%">
 
 <br />
-3.Compute the correlation matrix of the z-transformed binned spike trains
-<img style="float: left" src="https://rajatsaxena.github.io//images/correlationmatrix.png" width="500" height="500">
+3.Compute the correlation matrix of the z-transformed binned spike trains.
+<img style="float: left" src="https://rajatsaxena.github.io//images/correlationmatrix.png" width="100%" height="100%">
 
 <br />
-4.Compute the principal components of the matrix are computed 
+4.Compute the principal components of the correlation matrix.
 <img style="float: left" src="https://rajatsaxena.github.io//images/PCcorr.png" width="100%" height="100%">
 
 <br />
