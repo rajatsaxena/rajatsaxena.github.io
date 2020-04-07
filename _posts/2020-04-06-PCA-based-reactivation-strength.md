@@ -47,4 +47,5 @@ Reactivation strength computed from two randomly chosen templates:
 <br />
 <img style="float: left" src="https://rajatsaxena.github.io//images/reactivationstrength.png"  width="100%" height="100%">
 
+<br />
 One can now compare the reactivation strength between NREM, REM epochs or pre-task/ post-task sleep. There are multiple other ways to look at reactivation which I will post about in future. Good luck! 
