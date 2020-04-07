@@ -30,18 +30,18 @@ There are two parts of the algorithm: **Part I: Template Epoch**
 of these projector operators, weighted by their respective eigenvalues, yields the correlation matrix (shown in 
 right). *The projector matrices will be used as our templates.*
 <br />
-<img style="float: left" src="https://rajatsaxena.github.io//images/Templates.png">
-<img style="float: left" src="https://rajatsaxena.github.io//images/PCCorrdecoded.png">
+<img style="float: left" src="https://rajatsaxena.github.io//images/Templates.png" width="100%" height="100%">
+<img style="float: left" src="https://rajatsaxena.github.io//images/PCCorrdecoded.png" width="100%" height="100%">
 
 **Part II: Target Epoch**
 
-1.Get the binned spike train from sleep epochs or epochs that you want to match templates to. 
+1. Get the binned spike train from sleep epochs or epochs that you want to match templates to. 
 
-2.Each template computed above is separately applied on the target epoch: for each time t the 
+2. Each template computed above is separately applied on the target epoch: for each time t the 
 binned spike trains is left and right multiplied on the projector matrix. This gives us the reactivation
 strength at time t between the population vector (binned spike count at time t) and the template.
 
-3.Repeat this process  for each time bin in the target epoch. This will yield a time course for the reactivation
+3. Repeat this process  for each time bin in the target epoch. This will yield a time course for the reactivation
 strength for each time bin in the target epoch, yielding a time course for the reactivation strength. 
 Reactivation strength computed from two randomly chosen templates:
 <br />
