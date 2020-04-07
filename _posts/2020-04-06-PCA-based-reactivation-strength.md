@@ -11,14 +11,14 @@ algorithms used in the paper.
 
 There are two parts of the algorithm: **Part I: Template Epoch**
 
-1. Get the spike raster for the cell ensembles.
+1. Get the spike raster for the cell ensemble.
 <img style="float: left" src="https://rajatsaxena.github.io//images/spikeraster.png" width="100%" height="100%">
 
-2. Bin the spike trains in 25ms bin. The authors use 100ms bins. Binned spike trains are then z-transformed. 
+2. Bin the spike trains in 25ms bin. The authors used 100ms bins. Binned spike trains are then z-transformed. 
 <br />
 <img style="float: left" src="https://rajatsaxena.github.io//images/binnedspikeraster_Z.png" width="100%" height="100%">
 
-3. Compute the correlation matrix of the z-transformed binned spike trains.
+3. Compute the correlation matrix on the z-transformed binned spike trains.
 <br />
 <img style="float: left" src="https://rajatsaxena.github.io//images/correlationmatrix.png" width="100%" height="100%">
 
@@ -37,15 +37,15 @@ right). *The projector matrices will be used as our templates.*
 
 1. Get the binned spike train from sleep epochs or epochs that you want to match templates to. 
 
-2. Each template computed above is separately applied on the target epoch: for each time t the 
+2. Each template computed above is separately applied on the target epoch: for each time t, the 
 binned spike trains is left and right multiplied on the projector matrix. This gives us the reactivation
 strength at time t between the population vector (binned spike count at time t) and the template.
 
-3. Repeat this process  for each time bin in the target epoch. This will yield a time course for the reactivation
+3. Repeat this process for each time bin in the target epoch. This will yield a time course for the reactivation
 strength for each time bin in the target epoch, yielding a time course for the reactivation strength. 
 Reactivation strength computed from two randomly chosen templates:
 <br />
 <img style="float: left" src="https://rajatsaxena.github.io//images/reactivationstrength.png"  width="100%" height="100%">
 
 <br />
-One can now compare the reactivation strength between NREM, REM epochs or pre-task/ post-task sleep. There are multiple other ways to look at reactivation which I will post about in future. Good luck! 
+One can now compare the reactivation strength between NREM, REM epochs or pre-task/ post-task sleep. There are multiple other ways to look at reactivation which I will post about in the future. Good luck! 
