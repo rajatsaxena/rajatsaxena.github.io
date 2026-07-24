@@ -3,13 +3,6 @@ layout: page
 title: Publications
 permalink: /pubs/
 ---
-<img style="float:right;max-width:33%" src="/images/Cell Cover (SC final).png">
-
----
-layout: page
-title: Publications
-permalink: /pubs/
----
 
 #### Journal Research Articles
 
