@@ -5,39 +5,31 @@ permalink: /pubs/
 ---
 <img style="float:right;max-width:33%" src="/images/Cell Cover (SC final).png">
 
-#### Selected Highlights
-* __Chettih, SN__\*; Mackevicius, EM\*; Hale, S; Aronov, D (2024). Barcoding of episodic memories in the hippocampus of a food-caching bird. *Cell*. [[pdf]](/pdfs/barcode.pdf)
+---
+layout: page
+title: Publications
+permalink: /pubs/
+---
 
-* Fang, C\*; Lindsey, J\*; Abbott, LF; Aronov, D; __Chettih, SN__ (2024). Barcode activity in a recurrent network model of the hippocampus enables efficient memory binding. *eLife*. [[link]](https://elifesciences.org/reviewed-preprints/103512)
+#### Journal Research Articles
 
-* __Chettih, SN__; Harvey CD (2019). Single-neuron perturbations reveal feature-specific competition in V1. *Nature*. [[pdf]](/pdfs/influence.pdf)
+* Tarcsay, G*; __Saxena, R__*; Long, R; Shobe, JL; McNaughton, BL; Ewell, LA (2025). Dentate spikes comprise a continuum of relative input strength from the lateral and medial entorhinal cortex. *bioRxiv*. [[link]](https://www.biorxiv.org/content/10.1101/2025.10.27.684857)
 
-* Tseng, S\*; __Chettih, SN__\*; Arlt, C; Barroso-Luque, R; Harvey CD (2022). Shared and specialized coding across posterior cortical areas for dynamic navigation decisions. *Neuron*. [[pdf]](/pdfs/ppc.pdf)
+* Shobe, JL; Ghanbarian, E; Bain, R; __Saxena, R__; Chandrasekaran, M; et al. (2025). Cognitive enrichment improves spatial memory and alters hippocampal synaptic connectivity in a mouse model for early-life stress. *Frontiers in Cellular Neuroscience*. [[link]](https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2025.1646883/full)
+
+* __Saxena, R__; Shobe, JL; Andujo, AM; Ning, W; Anaclet, C; McNaughton, BL (2025). Enriched experience increases reciprocal synaptic connectivity and coding sparsity in higher-order cortex. *bioRxiv*. [[link]](https://pmc.ncbi.nlm.nih.gov/articles/PMC12425001/)
+
+* Golden, R; __Saxena, R__; González, OC; Delanois, JE; Kilianski, S; et al. (2025). Interleaved replay of novel and familiar memory traces during slow-wave sleep prevents catastrophic forgetting. *bioRxiv*. [[link]](https://pmc.ncbi.nlm.nih.gov/articles/PMC12262399/)
+
+* __Saxena, R__; Shobe, JL; McNaughton, BL (2022). Learning in deep neural networks and brains with similarity-weighted interleaved learning. *Proceedings of the National Academy of Sciences*. [[link]](https://www.pnas.org/doi/10.1073/pnas.2115229119)
+
+* __Saxena, R__; Barde, W; Deshmukh, SS (2018). Inexpensive, scalable camera system for tracking rats in large spaces. *Journal of Neurophysiology*. [[link]](https://journals.physiology.org/doi/full/10.1152/jn.00215.2018)
+
 
 ---
 
-#### Journal Articles
+#### Review & Preview articles
 
-* Arlt, C; Barroso-Luque, R; Kira, S; Bruno, CA; Xia, N; __Chettih, SN__; Soares, S; Pettit, NL; Harvey, CD (2022). Cognitive experience alters cortical involvement in goal-directed navigation. *Elife*. [[link]](https://elifesciences.org/articles/76051.pdf)
+* __Saxena, R__; McNaughton, BL (2025). Bridging neuroscience and AI: Environmental enrichment as a model for forward knowledge transfer in continual learning. *arXiv*. [[link]](https://arxiv.org/abs/2405.07295)
 
-* Dunn, TW; Marshall, JD; Severson, KS; Aldarondo, DE; Hildebrand, DGC; __Chettih, SN__; et al. (2021). Geometric deep learning enables 3D kinematic profiling across species and environments. *Nature methods*.
-
-* Kafashan, MM; Jaffe, AW; __Chettih, SN__; Nogueira, R; Arandia-Romero, I; Harvey, CD; Moreno-Bote, R; Drugowitsch, J (2021). Scaling of sensory information in large neural populations shows signatures of information-limiting correlations. *Nature communications*.
-
-* Cai, B; Billeh, YN; __Chettih, SN__; Harvey, CD; Koch, C; Arkhipov, A; Mihalas, S (2020).  Modeling robust and efficient coding in the mouse primary visual cortex using computational perturbations. *bioRxiv*. [[link]](https://www.biorxiv.org/content/biorxiv/early/2020/04/23/2020.04.21.051268.full.pdf)
-
-* Adam, Y; Kim, JJ; Lou, S; Zhao, Y; Xie, ME; Brinks, D; Wu, H; Mostajo-Radji, MA; Kheifets, S; Parot, V; __Chettih, SN__; et al. (2019). Voltage imaging and optogenetics reveal behavior-dependent changes in hippocampal dynamics. *Nature*.
-
-* Spaen, Q; Asín-Achá, R; __Chettih, SN__; Minderer, M; Harvey, CD; Hochbaum, DS (2019). HNCcorr: A novel combinatorial approach for cell identification in calcium-imaging movies. *eNeuro*.
-
-* Russell, LE; Yang, Z; Tan, PL; Fişek, M; Packer, AM; Dalgleish, HWP; __Chettih, SN__; Harvey, CD; Häusser, M (2019). The influence of visual cortex on perception is modulated by behavioral state. *bioRxiv*. [[link]](https://www.biorxiv.org/content/biorxiv/early/2019/07/17/706010.full.pdf)
-
-* Jackman, SL; Chen, CH; __Chettih, SN__; Neufeld, SQ; Drew IR; et al. (2018). Silk fibroin films facilitate single-step targeted expression of optogenetic proteins. *Cell reports*
-
-* Driscoll, LN; Petit, NL; Minderer, M; __Chettih, SN__; Harvey, CD (2017). Dynamic reorganization of neuronal activity patterns in parietal cortex. *Cell*.
-
-* Heiney, SA; Wohl, MP; __Chettih, SN__; Ruffolo, LI; Medina, JF (2014). Cerebellar-dependent expression of motor learning during eyeblink conditioning in head-fixed mice. *Journal of Neuroscience*.
-
-* __Chettih, SN__; Durgin, FH; Grodner, DJ (2012). Mixing metaphors in the cerebral hemispheres: what happens when careers collide? *JEP: LMC*.
-
-* __Chettih, SN__; McDougle, SF; Ruffolo, LI; Medina, JF (2011). Adaptive timing of motor output in the mouse: the role of movement oscillations in eyelid conditioning. *Frontiers in integrative neuroscience*.
+* McNaughton, BL; __Saxena, R__ (2022). Route selection with a cognitive map. *Neuron*. [[link]](https://www.cell.com/neuron/fulltext/S0896-6273(22)00360-9)
