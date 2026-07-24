@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-<img style="float:right;max-width:25%" src="/images/headshot.jpg">
+<img style="float:right;max-width:35%" src="/images/headshot.jpg">
 
 I am a systems neuroscientist interested in uncovering the neural circuit mechanisms that enable continual learning, memory consolidation, and cognitive flexibility. Specifically, I seek to understand how the brain continually incorporates new experiences, transfers prior knowledge to new situations, and coordinates hippocampus–neocortex interactions to support learning and memory across multiple timescales. To address these questions, I combine large-scale electrophysiology, two-photon calcium imaging, chemogenetics, behavioral experiments, and computational modeling.
 
